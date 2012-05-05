@@ -18,4 +18,16 @@ cursor_positions:
   - :path: app/views/layouts/application.html.erb
     :cursor_offset: 95
     :timestamp: 2012-05-05 13:10:13.403000 +12:00
+  - :path: spec/spec_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-05-04 20:30:51.279000 +12:00
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-05-04 20:14:53.463000 +12:00
+  - :path: config/routes.rb
+    :cursor_offset: 151
+    :timestamp: 2012-05-05 15:28:01.724000 +12:00
+  - :path: .gitignore
+    :cursor_offset: 431
+    :timestamp: 2012-05-05 15:46:23.255000 +12:00
 files_to_retain: 0
