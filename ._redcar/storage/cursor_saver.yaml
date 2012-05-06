@@ -9,42 +9,15 @@ cursor_positions:
   - :path: .gitignore
     :cursor_offset: 431
     :timestamp: 2012-05-05 15:46:23.255000 +12:00
-  - :path: app/views/layouts/application.html.erb
-    :cursor_offset: 815
-    :timestamp: 2012-05-05 21:26:03.692000 +12:00
-  - :path: app/views/static_pages/home.html.erb
-    :cursor_offset: 381
-    :timestamp: 2012-05-05 21:36:17.540000 +12:00
   - :path: app/assets/stylesheets/application.css
     :cursor_offset: 0
     :timestamp: 2012-05-04 20:14:53.459000 +12:00
   - :path: app/assets/stylesheets/static_pages.css.scss
     :cursor_offset: 0
     :timestamp: 2012-05-05 15:00:45.883000 +12:00
-  - :path: Gemfile
-    :cursor_offset: 81
-    :timestamp: 2012-05-05 22:24:44.317000 +12:00
-  - :path: app/views/static_pages/contact.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-05-05 15:34:53.123000 +12:00
-  - :path: app/views/static_pages/about.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-05-05 15:00:45.893000 +12:00
-  - :path: spec/requests/static_pages_spec.rb
-    :cursor_offset: 1631
-    :timestamp: 2012-05-05 16:51:01.595000 +12:00
-  - :path: app/helpers/application_helper.rb
-    :cursor_offset: 195
-    :timestamp: 2012-05-05 16:29:31.619000 +12:00
-  - :path: app/views/static_pages/help.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-05-05 15:00:45.899000 +12:00
   - :path: app/helpers/static_pages_helper.rb
     :cursor_offset: 0
     :timestamp: 2012-05-05 15:00:45.888000 +12:00
-  - :path: config/routes.rb
-    :cursor_offset: 66
-    :timestamp: 2012-05-06 12:21:27.222000 +12:00
   - :path: app/views/layouts/_footer.html.erb
     :cursor_offset: 337
     :timestamp: 2012-05-06 11:46:17.524000 +12:00
@@ -57,10 +30,49 @@ cursor_positions:
   - :path: app/controllers/application_controller.rb
     :cursor_offset: 0
     :timestamp: 2012-05-04 20:14:53.463000 +12:00
-  - :path: app/controllers/static_pages_controller.rb
-    :cursor_offset: 130
-    :timestamp: 2012-05-05 15:24:18.739000 +12:00
   - :path: app/controllers/users_controller.rb
     :cursor_offset: 0
     :timestamp: 2012-05-06 13:49:56.235000 +12:00
+  - :path: db/development.sqlite3
+    :cursor_offset: 0
+    :timestamp: 2012-05-04 20:58:10.987000 +12:00
+  - :path: Gemfile
+    :cursor_offset: 280
+    :timestamp: 2012-05-06 19:12:36.008000 +12:00
+  - :path: app/helpers/application_helper.rb
+    :cursor_offset: 195
+    :timestamp: 2012-05-05 16:29:31.619000 +12:00
+  - :path: app/views/static_pages/contact.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-05-05 15:34:53.123000 +12:00
+  - :path: app/views/static_pages/about.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-05-05 15:00:45.893000 +12:00
+  - :path: app/views/static_pages/help.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-05-05 15:00:45.899000 +12:00
+  - :path: app/views/static_pages/home.html.erb
+    :cursor_offset: 251
+    :timestamp: 2012-05-06 13:59:21.879000 +12:00
+  - :path: spec/requests/static_pages_spec.rb
+    :cursor_offset: 0
+    :timestamp: 2012-05-06 13:33:35.885000 +12:00
+  - :path: app/controllers/static_pages_controller.rb
+    :cursor_offset: 130
+    :timestamp: 2012-05-05 15:24:18.739000 +12:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-05-06 11:47:48.468000 +12:00
+  - :path: spec/support/utilities.rb
+    :cursor_offset: 175
+    :timestamp: 2012-05-06 13:39:42.658000 +12:00
+  - :path: app/views/users/new.html.erb
+    :cursor_offset: 98
+    :timestamp: 2012-05-06 13:57:49.014000 +12:00
+  - :path: db/migrate/20120506022600_create_users.rb
+    :cursor_offset: 0
+    :timestamp: 2012-05-06 14:26:00.373000 +12:00
+  - :path: config/routes.rb
+    :cursor_offset: 123
+    :timestamp: 2012-05-06 13:57:14.565000 +12:00
 files_to_retain: 0

@@ -1,23 +1,37 @@
-1336269845
+1336304086
 About page	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
+AddIndexToUsersEmail	C:/Sites/rails_projects/sample_app/db/migrate/20120506105147_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 Application	C:/Sites/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Sites/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
 Contact page	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Contact page" do
+CreateUsers	C:/Sites/rails_projects/sample_app/db/migrate/20120506023317_create_users.rb	class CreateUsers 
 Help page	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 SampleApp	C:/Sites/rails_projects/sample_app/config/application.rb	module SampleApp
 Static pages	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	C:/Sites/rails_projects/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	C:/Sites/rails_projects/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+User	C:/Sites/rails_projects/sample_app/app/models/user.rb	class User 
 User pages	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "User pages" do
 UsersController	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
 UsersHelper	C:/Sites/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
+VALID_EMAIL_REGEX	C:/Sites/rails_projects/sample_app/app/models/user.rb	  VALID_EMAIL_REGEX =
 about	C:/Sites/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def about
+change	C:/Sites/rails_projects/sample_app/db/migrate/20120506023317_create_users.rb	  def change
+change	C:/Sites/rails_projects/sample_app/db/migrate/20120506105147_add_index_to_users_email.rb	  def change
 contact	C:/Sites/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def contact
 full_title	C:/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	def full_title(page_title)
 full_title	C:/Sites/rails_projects/sample_app/spec/support/utilities.rb	def full_title(page_title)
 help	C:/Sites/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	C:/Sites/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def home
 new	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
+should be invalid	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	it "should be invalid" do
+should be valid	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	it "should be valid" do
 signup page	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
+when email address is already taken	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email address is already taken" do
+when email format is invalid	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email format is invalid" do
+when email format is valid	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email format is valid" do
+when email is not present	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email is not present" do
+when name is not present	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "when name is not present" do
+when name is too long	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "when name is too long" do
