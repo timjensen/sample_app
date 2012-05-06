@@ -1,4 +1,4 @@
-1336213484
+1336269845
 About page	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 Application	C:/Sites/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Sites/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
@@ -7,20 +7,17 @@ Contact page	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.
 Help page	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 SampleApp	C:/Sites/rails_projects/sample_app/config/application.rb	module SampleApp
-StaticPages	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "StaticPages" do
+Static pages	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	C:/Sites/rails_projects/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	C:/Sites/rails_projects/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+User pages	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "User pages" do
+UsersController	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
+UsersHelper	C:/Sites/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
 about	C:/Sites/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def about
 contact	C:/Sites/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def contact
 full_title	C:/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	def full_title(page_title)
+full_title	C:/Sites/rails_projects/sample_app/spec/support/utilities.rb	def full_title(page_title)
 help	C:/Sites/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	C:/Sites/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def home
-should have the base title	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the base title" do
-should have the base title	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the base title" do
-should have the base title 	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the base title " do
-should have the base title 	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the base title " do
-should have the content 'About Us'	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the content 'About Us'" do
-should have the content 'About Us'	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the content 'About Us'" do
-should have the content 'Help'	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the content 'Help'" do
-should have the content 'Sample App'	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the content 'Sample App'" do
-should not have a custom page title	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should not have a custom page title" do
+new	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
+signup page	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
