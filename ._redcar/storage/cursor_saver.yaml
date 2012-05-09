@@ -3,9 +3,6 @@ cursor_positions:
   - :path: README.rdoc
     :cursor_offset: 208
     :timestamp: 2012-05-04 20:34:06.951000 +12:00
-  - :path: spec/spec_helper.rb
-    :cursor_offset: 0
-    :timestamp: 2012-05-04 20:30:51.279000 +12:00
   - :path: .gitignore
     :cursor_offset: 431
     :timestamp: 2012-05-05 15:46:23.255000 +12:00
@@ -21,9 +18,6 @@ cursor_positions:
   - :path: app/views/layouts/_footer.html.erb
     :cursor_offset: 337
     :timestamp: 2012-05-06 11:46:17.524000 +12:00
-  - :path: app/views/layouts/_header.html.erb
-    :cursor_offset: 392
-    :timestamp: 2012-05-06 11:43:43.613000 +12:00
   - :path: app/views/layouts/_shim.html.erb
     :cursor_offset: 93
     :timestamp: 2012-05-06 11:37:32.205000 +12:00
@@ -42,9 +36,6 @@ cursor_positions:
   - :path: app/views/static_pages/home.html.erb
     :cursor_offset: 251
     :timestamp: 2012-05-06 13:59:21.879000 +12:00
-  - :path: app/views/layouts/application.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-05-06 11:47:48.468000 +12:00
   - :path: spec/support/utilities.rb
     :cursor_offset: 175
     :timestamp: 2012-05-06 13:39:42.658000 +12:00
@@ -63,12 +54,6 @@ cursor_positions:
   - :path: app/helpers/application_helper.rb
     :cursor_offset: 55
     :timestamp: 2012-05-05 16:29:31.619000 +12:00
-  - :path: app/controllers/application_controller.rb
-    :cursor_offset: 0
-    :timestamp: 2012-05-04 20:14:53.463000 +12:00
-  - :path: app/controllers/users_controller.rb
-    :cursor_offset: 0
-    :timestamp: 2012-05-06 13:49:56.235000 +12:00
   - :path: app/controllers/static_pages_controller.rb
     :cursor_offset: 130
     :timestamp: 2012-05-05 15:24:18.739000 +12:00
@@ -81,19 +66,46 @@ cursor_positions:
   - :path: db/migrate/20120508025855_add_password_digest_to_users.rb
     :cursor_offset: 0
     :timestamp: 2012-05-08 14:58:55.143000 +12:00
-  - :path: spec/requests/user_pages_spec.rb
-    :cursor_offset: 0
-    :timestamp: 2012-05-06 13:52:36.907000 +12:00
-  - :path: app/models/user.rb
-    :cursor_offset: 551
-    :timestamp: 2012-05-08 15:14:42.608000 +12:00
-  - :path: Gemfile
-    :cursor_offset: 98
-    :timestamp: 2012-05-08 14:30:05.344000 +12:00
-  - :path: db/schema.rb
-    :cursor_offset: 0
-    :timestamp: 2012-05-08 15:08:07.051000 +12:00
   - :path: spec/models/user_spec.rb
     :cursor_offset: 713
     :timestamp: 2012-05-08 16:05:06.211000 +12:00
+  - :path: spec/spec_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-05-04 20:30:51.279000 +12:00
+  - :path: app/models/user.rb
+    :cursor_offset: 744
+    :timestamp: 2012-05-08 17:06:26.290000 +12:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 435
+    :timestamp: 2012-05-08 20:46:07.694000 +12:00
+  - :path: db/schema.rb
+    :cursor_offset: 0
+    :timestamp: 2012-05-08 22:11:34.370000 +12:00
+  - :path: app/assets/stylesheets/custom.css.scss
+    :cursor_offset: 1500
+    :timestamp: 2012-05-08 19:43:31.141000 +12:00
+  - :path: spec/factories.rb
+    :cursor_offset: 169
+    :timestamp: 2012-05-09 15:59:19.145000 +12:00
+  - :path: config/environments/test.rb
+    :cursor_offset: 1693
+    :timestamp: 2012-05-09 16:19:20.370000 +12:00
+  - :path: Gemfile
+    :cursor_offset: 726
+    :timestamp: 2012-05-09 15:54:08.534000 +12:00
+  - :path: spec/requests/user_pages_spec.rb
+    :cursor_offset: 370
+    :timestamp: 2012-05-09 16:02:07.465000 +12:00
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 78
+    :timestamp: 2012-05-08 22:23:12.549000 +12:00
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-05-04 20:14:53.463000 +12:00
+  - :path: app/views/layouts/_header.html.erb
+    :cursor_offset: 355
+    :timestamp: 2012-05-09 17:47:39.961000 +12:00
+  - :path: app/helpers/users_helper.rb
+    :cursor_offset: 320
+    :timestamp: 2012-05-09 16:30:49.150000 +12:00
 files_to_retain: 0
