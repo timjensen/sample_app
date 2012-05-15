@@ -36,9 +36,6 @@ cursor_positions:
   - :path: app/views/static_pages/home.html.erb
     :cursor_offset: 251
     :timestamp: 2012-05-06 13:59:21.879000 +12:00
-  - :path: spec/support/utilities.rb
-    :cursor_offset: 175
-    :timestamp: 2012-05-06 13:39:42.658000 +12:00
   - :path: app/views/users/new.html.erb
     :cursor_offset: 98
     :timestamp: 2012-05-06 13:57:49.014000 +12:00
@@ -108,9 +105,6 @@ cursor_positions:
   - :path: app/models/user.rb
     :cursor_offset: 0
     :timestamp: 2012-05-15 10:00:09.027000 +12:00
-  - :path: Gemfile
-    :cursor_offset: 0
-    :timestamp: 2012-05-15 10:00:08.971000 +12:00
   - :path: db/schema.rb
     :cursor_offset: 0
     :timestamp: 2012-05-15 10:02:59.206000 +12:00
@@ -135,4 +129,19 @@ cursor_positions:
   - :path: spec/factories.rb
     :cursor_offset: 207
     :timestamp: 2012-05-15 14:07:55.427000 +12:00
+  - :path: lib/tasks/sample_data.rake
+    :cursor_offset: 587
+    :timestamp: 2012-05-15 13:32:35.252000 +12:00
+  - :path: Gemfile
+    :cursor_offset: 198
+    :timestamp: 2012-05-15 13:43:06.141000 +12:00
+  - :path: spec/support/utilities.rb
+    :cursor_offset: 734
+    :timestamp: 2012-05-15 10:40:55.763000 +12:00
+  - :path: app/views/users/_user.html.erb
+    :cursor_offset: 83
+    :timestamp: 2012-05-15 14:22:02.986000 +12:00
+  - :path: db/migrate/20120515023150_add_admin_to_users.rb
+    :cursor_offset: 116
+    :timestamp: 2012-05-15 14:33:33.617000 +12:00
 files_to_retain: 0
