@@ -1,4 +1,4 @@
-1337054194
+1337062668
 About page	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddAdminToUsers	C:/Sites/rails_projects/sample_app/db/migrate/20120515023150_add_admin_to_users.rb	class AddAdminToUsers 
 AddIndexToUsersEmail	C:/Sites/rails_projects/sample_app/db/migrate/20120506105147_add_index_to_users_email.rb	class AddIndexToUsersEmail 
@@ -9,9 +9,11 @@ ApplicationController	C:/Sites/rails_projects/sample_app/app/controllers/applica
 ApplicationHelper	C:/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
 Authentication	C:/Sites/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "Authentication" do
 Contact page	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Contact page" do
+CreateMicroposts	C:/Sites/rails_projects/sample_app/db/migrate/20120515044808_create_microposts.rb	class CreateMicroposts 
 CreateUsers	C:/Sites/rails_projects/sample_app/db/migrate/20120506023317_create_users.rb	class CreateUsers 
 Help page	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
+Micropost	C:/Sites/rails_projects/sample_app/app/models/micropost.rb	class Micropost 
 SampleApp	C:/Sites/rails_projects/sample_app/config/application.rb	module SampleApp
 SessionsController	C:/Sites/rails_projects/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
 SessionsHelper	C:/Sites/rails_projects/sample_app/app/helpers/sessions_helper.rb	module SessionsHelper
@@ -27,6 +29,7 @@ UsersController	C:/Sites/rails_projects/sample_app/app/controllers/users_control
 UsersHelper	C:/Sites/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
 VALID_EMAIL_REGEX	C:/Sites/rails_projects/sample_app/app/models/user.rb	  VALID_EMAIL_REGEX =
 about	C:/Sites/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def about
+accessible attributes	C:/Sites/rails_projects/sample_app/spec/models/micropost_spec.rb	describe "accessible attributes" do
 admin_user	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	    def admin_user
 after saving the user	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "after saving the user" do
 after saving the user	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "after saving the user" do
@@ -41,6 +44,7 @@ change	C:/Sites/rails_projects/sample_app/db/migrate/20120508025855_add_password
 change	C:/Sites/rails_projects/sample_app/db/migrate/20120506105147_add_index_to_users_email.rb	  def change
 change	C:/Sites/rails_projects/sample_app/db/migrate/20120506023317_create_users.rb	  def change
 change	C:/Sites/rails_projects/sample_app/db/migrate/20120515023150_add_admin_to_users.rb	  def change
+change	C:/Sites/rails_projects/sample_app/db/migrate/20120515044808_create_microposts.rb	  def change
 clear_return_to	C:/Sites/rails_projects/sample_app/app/helpers/sessions_helper.rb	    def clear_return_to
 contact	C:/Sites/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def contact
 correct_user	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	    def correct_user
@@ -69,6 +73,7 @@ home	C:/Sites/rails_projects/sample_app/app/controllers/static_pages_controller.
 in the Users controller	C:/Sites/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "in the Users controller" do
 index	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "index" do
 index	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def index
+micropost associations	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "micropost associations" do
 new	C:/Sites/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def new
 new	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
 page	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "page" do
@@ -81,7 +86,10 @@ should be able to delete another user	C:/Sites/rails_projects/sample_app/spec/re
 should be invalid	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	it "should be invalid" do
 should be valid	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	it "should be valid" do
 should create a user	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	it "should create a user" do
+should destroy associated microposts	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	it "should destroy associated microposts" do
+should have the right microposts in the right order	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	it "should have the right microposts in the right order" do
 should list each user	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	it "should list each user" do
+should not allow access to user_id	C:/Sites/rails_projects/sample_app/spec/models/micropost_spec.rb	it "should not allow access to user_id" do
 should not create a user	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	it "should not create a user" do
 should render the desired protected page	C:/Sites/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	it "should render the desired protected page" do
 show	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def show
@@ -115,6 +123,7 @@ when name is too long	C:/Sites/rails_projects/sample_app/spec/models/user_spec.r
 when password confirmation is nil	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password confirmation is nil" do
 when password doesn't match confirmation	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password doesn't match confirmation" do
 when password is not present	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password is not present" do
+when user_id is not present	C:/Sites/rails_projects/sample_app/spec/models/micropost_spec.rb	describe "when user_id is not present" do
 with a password that's too short	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "with a password that's too short" do
 with admin attribute set to 'true'	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "with admin attribute set to 'true'" do
 with invalid information	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
