@@ -1,4 +1,4 @@
-1337062668
+1337079030
 About page	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddAdminToUsers	C:/Sites/rails_projects/sample_app/db/migrate/20120515023150_add_admin_to_users.rb	class AddAdminToUsers 
 AddIndexToUsersEmail	C:/Sites/rails_projects/sample_app/db/migrate/20120506105147_add_index_to_users_email.rb	class AddIndexToUsersEmail 
@@ -74,6 +74,7 @@ in the Users controller	C:/Sites/rails_projects/sample_app/spec/requests/authent
 index	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "index" do
 index	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def index
 micropost associations	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "micropost associations" do
+microposts	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "microposts" do
 new	C:/Sites/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def new
 new	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
 page	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "page" do
@@ -126,10 +127,12 @@ when password is not present	C:/Sites/rails_projects/sample_app/spec/models/user
 when user_id is not present	C:/Sites/rails_projects/sample_app/spec/models/micropost_spec.rb	describe "when user_id is not present" do
 with a password that's too short	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "with a password that's too short" do
 with admin attribute set to 'true'	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "with admin attribute set to 'true'" do
-with invalid information	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
+with blank content	C:/Sites/rails_projects/sample_app/spec/models/micropost_spec.rb	describe "with blank content" do
+with content that is too long	C:/Sites/rails_projects/sample_app/spec/models/micropost_spec.rb	describe "with content that is too long" do
 with invalid information	C:/Sites/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "with invalid information" do
+with invalid information	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
 with invalid password	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "with invalid password" do
-with valid information	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
-with valid information	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
 with valid information	C:/Sites/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "with valid information" do
+with valid information	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
+with valid information	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
 with valid password	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "with valid password" do
