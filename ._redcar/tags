@@ -1,4 +1,4 @@
-1337132467
+1337147826
 About page	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddAdminToUsers	C:/Sites/rails_projects/sample_app/db/migrate/20120515023150_add_admin_to_users.rb	class AddAdminToUsers 
 AddIndexToUsersEmail	C:/Sites/rails_projects/sample_app/db/migrate/20120506105147_add_index_to_users_email.rb	class AddIndexToUsersEmail 
@@ -37,6 +37,7 @@ after saving the user	C:/Sites/rails_projects/sample_app/spec/requests/user_page
 after saving the user	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "after saving the user" do
 after signing in	C:/Sites/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "after signing in" do
 after visiting another page	C:/Sites/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "after visiting another page" do
+and unfollowing	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "and unfollowing" do
 as an admin user	C:/Sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "as an admin user" do
 as correct user	C:/Sites/rails_projects/sample_app/spec/requests/micropost_pages_spec.rb	describe "as correct user" do
 as non-admin user	C:/Sites/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "as non-admin user" do
@@ -68,6 +69,8 @@ edit	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  de
 error messages	C:/Sites/rails_projects/sample_app/spec/requests/micropost_pages_spec.rb	describe "error messages" do
 feed	C:/Sites/rails_projects/sample_app/app/models/user.rb	  def feed
 followed by signout	C:/Sites/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "followed by signout" do
+followed user	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "followed user" do
+following	C:/Sites/rails_projects/sample_app/spec/models/user_spec.rb	describe "following" do
 for non-signed-in users	C:/Sites/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "for non-signed-in users" do
 for signed-in users	C:/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "for signed-in users" do
 full_title	C:/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	def full_title(page_title)

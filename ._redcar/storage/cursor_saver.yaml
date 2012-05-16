@@ -99,9 +99,6 @@ cursor_positions:
   - :path: Gemfile
     :cursor_offset: 227
     :timestamp: 2012-05-15 13:43:06.141000 +12:00
-  - :path: app/models/user.rb
-    :cursor_offset: 383
-    :timestamp: 2012-05-15 18:17:16.325000 +12:00
   - :path: config/application.rb
     :cursor_offset: 0
     :timestamp: 2012-05-15 10:00:09.062000 +12:00
@@ -117,9 +114,6 @@ cursor_positions:
   - :path: app/views/users/index.html.erb
     :cursor_offset: 147
     :timestamp: 2012-05-15 14:23:06.865000 +12:00
-  - :path: spec/models/user_spec.rb
-    :cursor_offset: 3943
-    :timestamp: 2012-05-15 18:15:01.748000 +12:00
   - :path: config/routes.rb
     :cursor_offset: 162
     :timestamp: 2012-05-16 10:17:12.836000 +12:00
@@ -183,4 +177,19 @@ cursor_positions:
   - :path: app/views/shared/_feed.html.erb
     :cursor_offset: 180
     :timestamp: 2012-05-16 12:11:01.463000 +12:00
+  - :path: spec/models/relationship_spec.rb
+    :cursor_offset: 661
+    :timestamp: 2012-05-16 17:09:07.877000 +12:00
+  - :path: spec/models/user_spec.rb
+    :cursor_offset: 4969
+    :timestamp: 2012-05-16 17:50:36.784000 +12:00
+  - :path: app/models/user.rb
+    :cursor_offset: 1400
+    :timestamp: 2012-05-16 17:28:22.683000 +12:00
+  - :path: app/models/relationship.rb
+    :cursor_offset: 246
+    :timestamp: 2012-05-16 17:09:30.295000 +12:00
+  - :path: db/migrate/20120516042426_create_relationships.rb
+    :cursor_offset: 363
+    :timestamp: 2012-05-16 16:59:04.649000 +12:00
 files_to_retain: 0

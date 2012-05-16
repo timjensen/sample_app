@@ -1,6 +1,7 @@
 --- 
 open_files: 
-  - app/models/user.rb
+  - spec/models/relationship_spec.rb
   - spec/models/user_spec.rb
-  - Gemfile
-  - db/schema.rb
+  - app/models/user.rb
+  - app/models/relationship.rb
+  - db/migrate/20120516042426_create_relationships.rb
